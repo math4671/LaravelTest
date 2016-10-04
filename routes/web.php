@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// Post route for web forms
+Route::post('user/edit', function () {
+    return view('hello');
+});
